@@ -23,7 +23,7 @@ private StudentRepository studentRepository;
 
 	@Override
 	public void run(String...args)throws Exception{
-		employeeRepository.saveAll(Arrays.asList(
+		/*employeeRepository.saveAll(Arrays.asList(
 				new Employee(1,"fn1","ln1","em1"),
 		new Employee(2,"fn2","ln2","em2"),
 		new Employee(3,"fn3","ln3","em3")
@@ -35,5 +35,5 @@ private StudentRepository studentRepository;
 		new Student(3,"fn3","ln3","em3")
 
 		));
-	}
+	}*/
 }
