@@ -12,17 +12,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class SpringbootwithmultipledbsApplication implements CommandLineRunner {
-@Autowired
-private EmployeeRepository employeeRepository;
-@Autowired
-private StudentRepository studentRepository;
+public class SpringbootwithmultipledbsApplication {
+	//implements CommandLineRunner
+	//@Autowired
+	//private EmployeeRepository employeeRepository;
+	//@Autowired
+	//private StudentRepository studentRepository;
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootwithmultipledbsApplication.class, args);
 	}
 
-	@Override
-	public void run(String...args)throws Exception{
+	//@Override
+	public void run(String... args) throws Exception {
 		/*employeeRepository.saveAll(Arrays.asList(
 				new Employee(1,"fn1","ln1","em1"),
 		new Employee(2,"fn2","ln2","em2"),
@@ -36,4 +38,5 @@ private StudentRepository studentRepository;
 
 		));
 	}*/
+	}
 }
